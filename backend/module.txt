@@ -1,0 +1,8 @@
+경준님 개발 세팅 모듈 -> 확인사항  
+
+environs
+pillow
+psycopg2
+dotenv
+
+DB -> PostgreSQL -> 10MB(테스트용 충분)
