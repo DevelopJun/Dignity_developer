@@ -5,7 +5,7 @@ Django 개발 문서
 
  
 
-> - mangae.py : app을 생성, 서버 실행, 데이터베이스 관한 작업을 하는 파일
+> - manage.py : app을 생성, 서버 실행, 데이터베이스 관한 작업을 하는 파일
 > - settings.py : 프로젝트의 환경 및 구성에 대한 설정이 있는 파일, app 생성 후 이곳에서
 등록하고, static file, database 설정 이곳에서 
 > - Setting.py 파일의 내용은 크게 다음 부분으로 나눌 수 있다.
