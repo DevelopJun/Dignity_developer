@@ -26,5 +26,6 @@ URL과 뷰
  모델
 > - Python manage.py makemigrations -> sqlmigrate로 실제 어떤 쿼리문이 실행되는 확인할 수 있다. -> python manage.py migrate
 장고 관리자 
-	슈퍼유저 
+
+슈퍼유저 
 
