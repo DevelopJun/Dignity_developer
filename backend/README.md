@@ -15,9 +15,12 @@ Django 개발 문서
 
  * * * 
 ### Django에서 settings.py 여러 개를 분리하기 
-> Django 프로젝트를 진행하다보면 여러 개발자가 한 프로젝트를 작업하게 됩니다. 
+> Django 프로젝트를 진행하다보면 여러 개발자가 한 프로젝트를 작업하게 됩니다.
+ 
 > 또한 각 개발자분들마다 사용하던(혹은 익숙한) 데이터베이스와 환경 설정 등이 다를 수 있다. 그리고 제일 중요한 부분은 실제 배포 환경에서는 settings.py의 DEBUG가 False여야 하는데, 개발 환경에서는 True로 해놓고 작업하다가 다시 False 로 바꿔주고 서버로 올려줘야 하는 아주 귀찮은 일이 닥치게 된다. 
+
 > 따라서 settings라는 폴더를 하나 만들어서, base.py, local.py, production.py로 변경하여 분리한다.
+
 > 에를 들어 만약 로컬에서는 로컬의 PostgreSQL을 사용하고, 프로덕션에서는 AWS의 RDS를 사용한다면, Local.py 에선 DB HOST 부분을 Localhost로, 그리고 production.py에서는 AWS 의 RDS 주소를 사용해주면 된다. 
 
 * * *
@@ -44,5 +47,7 @@ URL과 뷰
 2. Schema_url_patterns 정의
 3. urlpatterns 정의
 4. API 데코레이터 추가 
+
+* * * 
 
 
