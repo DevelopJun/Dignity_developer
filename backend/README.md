@@ -49,5 +49,8 @@ URL과 뷰
 4. API 데코레이터 추가 
 
 * * * 
-
+## Django Postgress (DB 연결 연동) 
+### 
+> - psycopg2 설치 : python과 postgreSQL 을 연동하기 위해 필요한 python 라이브러리 
+> [명령어] pip install psycopg2
 
